@@ -2,7 +2,7 @@ FROM openjdk:17-jdk-alpine
 
 WORKDIR /usr/src/app
 
-COPY app.java .
+COPY Main.java .
 
 RUN javac app.java
 
