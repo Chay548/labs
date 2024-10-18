@@ -7,7 +7,7 @@ WORKDIR /usr/src/app
 COPY *.java .
 
 # Compile all Java files
-RUN javac Main.java hello.java
+RUN javac Main.java Hello.java
 
 # Run the Main class (note that Java expects the class name, not the filename)
 CMD ["java", "Main"]
